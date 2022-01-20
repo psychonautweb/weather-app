@@ -29,19 +29,19 @@ window.addEventListener('load', () => {
                     tempValueElement.textContent = Math.round(feels_like-273);
                     
                     if (id < 250) {
-                        tempIconElement.src = './icons/storm.svg'
+                        tempIconElement.src = './icons/storm.png'
                     } else if (id < 350) {
-                        tempIconElement.src = './icons/drizzle.svg'
+                        tempIconElement.src = './icons/drizzle.png'
                     } else if (id < 550) {
-                        tempIconElement.src = './icons/rain.svg'
+                        tempIconElement.src = './icons/rain.png'
                     } else if (id < 650) {
-                        tempIconElement.src = './icons/snow.svg'
+                        tempIconElement.src = './icons/snow.png'
                     } else if (id < 800) {
-                        tempIconElement.src = './icons/atmposphere.svg'
+                        tempIconElement.src = './icons/atmospheric.png'
                     } else if (id === 800) {
-                        tempIconElement.src = './icons/clear.svg'
+                        tempIconElement.src = './icons/clear.png'
                     } else if (id > 800) {
-                        tempIconElement.src = './icons/clouds.svg'
+                        tempIconElement.src = './icons/cloudy.png'
                     }
                     console.log(data);
                 })
