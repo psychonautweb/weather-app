@@ -13,7 +13,7 @@ let weather = {
     displayWeather: function(data) {
         const { name } = data;
         const { icon, description } = data.weather[0];
-        const { temp, humidity } = data.main.toFixed(0);
+        const { temp, humidity } = data.main;
         const { speed } = data.wind;
         // console.log(name, icon, description, temp, humidity, speed);
 
