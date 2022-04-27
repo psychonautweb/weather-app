@@ -42,6 +42,6 @@ document.querySelector('.search-bar').addEventListener('keyup', function () {
     }
 });
 
-weather.fetchWeather('Belgrade');
+weather.fetchWeather();
 
 // 23b6b88a53a59ad3fa30461332d0f8c7
